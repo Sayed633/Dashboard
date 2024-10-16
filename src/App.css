@@ -1,0 +1,61 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #00C9FF;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.add-task-btn {
+  background-color: #FFFFFF;
+  color: #00C9FF;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.overview {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-box {
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.charts {
+  margin-top: 40px;
+}

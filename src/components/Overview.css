@@ -1,0 +1,55 @@
+/* Overview.css */
+.overview {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between; /* Space between boxes */
+    margin-bottom: 30px;
+  }
+  
+  .stat-box {
+    background-color: #ffffff; /* White background for stat boxes */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    flex: 1; /* Flex-grow for equal width */
+    margin: 0 10px; /* Space between boxes */
+  }
+  
+  .stat-box h3 {
+    color: #343a40; /* Dark text color for headings */
+    margin-bottom: 10px; /* Space below headings */
+  }
+  
+  hr {
+    border: none; /* Remove default border */
+    height: 1px; /* Set height */
+    background-color: #ddd; /* Light gray line */
+    margin: 10px 0; /* Space above and below the line */
+  }
+  
+  .charts {
+    margin-top: 20px;
+  }
+  
+  .charts h3 {
+    color: #343a40; /* Dark text for chart title */
+    margin-bottom: 15px; /* Space below chart title */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .stats {
+      flex-direction: column; /* Stack boxes on small screens */
+    }
+  
+    .stat-box {
+      margin: 10px 0; /* Space for stacked boxes */
+    }
+  }
+  
